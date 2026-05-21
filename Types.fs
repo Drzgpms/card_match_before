@@ -17,4 +17,6 @@ type GameState = {
     Size : int
     Attempts : int
     Theme : string
+
+    SeenCards : Map<string, Set<int>>
 }

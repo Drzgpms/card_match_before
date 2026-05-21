@@ -46,6 +46,7 @@ let main argv =
             Size = size
             Attempts = 0
             Theme = theme
+            SeenCards = Map.empty
         }
 
     gameLoop initialState

@@ -10,6 +10,8 @@
     <Compile Include="Themes.fs" />
     <Compile Include="Utils.fs" />
     <Compile Include="Board.fs" />
+    <Compile Include="Logic.fs" />
+    <Compile Include="AI.fs" />
     <Compile Include="Game.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
