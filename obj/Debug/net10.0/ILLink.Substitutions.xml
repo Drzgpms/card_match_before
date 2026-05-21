@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="card_match_before">
+    <resource name="FSharpSignatureData.card_match_before" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedData.card_match_before" action="remove"></resource>
+    <resource name="FSharpSignatureDataB.card_match_before" action="remove"></resource>
+    <resource name="FSharpSignatureCompressedDataB.card_match_before" action="remove"></resource>
+    <resource name="FSharpOptimizationData.card_match_before" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedData.card_match_before" action="remove"></resource>
+    <resource name="FSharpOptimizationDataB.card_match_before" action="remove"></resource>
+    <resource name="FSharpOptimizationCompressedDataB.card_match_before" action="remove"></resource>
+    <resource name="FSharpOptimizationInfo.card_match_before" action="remove"></resource>
+    <resource name="FSharpSignatureInfo.card_match_before" action="remove"></resource>
+  </assembly>
+</linker>

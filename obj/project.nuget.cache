@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jWPsv7TNQAA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\a\\OneDrive\\Desktop\\2026 봄학기\\프밍이\\card_match_before\\card_match_before.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\a\\.nuget\\packages\\fsharp.core\\10.1.201\\fsharp.core.10.1.201.nupkg.sha512"
+  ],
+  "logs": []
+}
