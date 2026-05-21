@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("card_match_before")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a5a3ab711e9f64d7032b622153f635b49089c79")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77aff8aaeb20123e1d721a74415ec19352f3c333")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("card_match_before")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("card_match_before")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]
