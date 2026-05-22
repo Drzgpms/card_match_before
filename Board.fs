@@ -46,9 +46,19 @@ let printBoard (state : GameState) =
 
             if card.Revealed then
                 if card.Matched then
-                    printf "🂿 %-12s " card.Value
+                    Console.ForegroundColor <- ConsoleColor.Green
+                    printf "🂿"
+                    Console.ResetColor()
+
+                    printf " %-12s " card.Value
+
                 else
-                    printf "🂾 %-12s " card.Value
+                    Console.ForegroundColor <- ConsoleColor.Yellow
+                    printf "🂾"
+                    Console.ResetColor()
+
+                    printf " %-12s " card.Value
+
             else
                 printf "🂠 %-12d " (index + 1)
         printfn ""
