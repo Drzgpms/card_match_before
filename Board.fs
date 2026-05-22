@@ -44,8 +44,11 @@ let printBoard (state : GameState) =
             let index = row * state.Size + col
             let card = state.Board[index]
 
-            if card.Revealed || card.Matched then
-                printf "| %-12s " card.Value
+            if card.Revealed then
+                if card.Matched then
+                    printf "🂿 %-12s " card.Value
+                else
+                    printf "🂾 %-12s " card.Value
             else
-                printf "| %-12d " (index + 1)
+                printf "🂠 %-12d " (index + 1)
         printfn ""
