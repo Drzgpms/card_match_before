@@ -2,8 +2,10 @@
 open Board
 open Game
 open System
+open System.Threading
 
 let rec selectDifficulty () =
+    Console.Clear()
     printfn "E / Easy   -> 4x4"
     printfn "N / Normal -> 6x6"
     printfn "H / Hard   -> 8x8"
@@ -26,9 +28,9 @@ let rec selectDifficulty () =
         Hard
 
     | _ ->
-        Console.Clear()
         printfn "Invalid difficulty."
         printfn ""
+        Thread.Sleep(700)
         selectDifficulty ()
 
 [<EntryPoint>]
