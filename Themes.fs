@@ -172,9 +172,9 @@ let themes =
         
         ("Shapes",
             [ "Circle"; "Square"; "Triangle"; "Rectangle"; "Oval"; "Pentagon"; "Hexagon"; "Octagon"
-              "Star"; "Diamond"; "Cube"; "Sphere"; "Cylinder"; "Cone"; "Pyramid"; "Prism"
-              "Arrow"; "Heart"; "Cross"; "Line"; "Curve"; "Spiral"; "Polygon"; "Semicircle"
-              "Kite"; "Rhombus"; "Trapezoid"; "Ellipse"; "Arc"; "Dot"; "Ring"; "Crescent" ])
+              "Star"; "Diamond"; "Cube"; "Sphere"; "Cylinder"; "Cone"; "Tetrahedron"; "Octahedron"
+              "Arrow"; "Heart"; "Cross"; "Line"; "Curve"; "Dodecahedron"; "Parallelogram"; "Semicircle"
+              "Kite"; "Pyramid"; "Trapezoid"; "Icosahedron"; "Arc"; "Dot"; "Torus"; "Crescent" ])
         
         ("Subjects",
             [ "Math"; "Science"; "History"; "Physics"; "Chemistry"; "Biology"; "Geography"; "English"
